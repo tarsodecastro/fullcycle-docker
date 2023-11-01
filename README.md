@@ -8,6 +8,15 @@ Imagem do container Go no Doker Hub: \
 https://hub.docker.com/r/tarsodecastro/fullcycle
 
 
+```
+# Teste
+docker run --rm tarsodecastro/fullcycle
+
+# Retorno esperado
+Full Cycle Rocks!
+
+```
+
 ## Desafio Nginx + Node + MySQL:
 
 ### Instalação
@@ -24,3 +33,4 @@ docker-compose up
 
 # Acesse a aplicação pelo navegador na porta 8080
 localhost:8080
+```
