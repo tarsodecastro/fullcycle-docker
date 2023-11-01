@@ -23,8 +23,8 @@ services:
     container_name: app
     networks:
       - node-network
-    volumes:
-      - ./node:/home/node/app
+    # volumes:
+    #   - ./node:/home/node/app
     ports:
       - "3000:3000"
     depends_on:
