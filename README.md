@@ -5,7 +5,7 @@ Projeto criado com a finalidade de apresentar os resultados dos desafios propost
 ## Desafio Go:
 
 Imagem do container Go no Doker Hub: \
-<a href="https://hub.docker.com/r/tarsodecastro/fullcycle" target="_blank">https://hub.docker.com/r/tarsodecastro/fullcycle</a>
+https://hub.docker.com/r/tarsodecastro/fullcycle
 
 ### Teste
 ```
