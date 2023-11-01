@@ -1,5 +1,7 @@
 # Docker
 
+Projeto criado com a finalidade de apresentar os resultados dos desafios propostos na conclusão do módulo Docker do curso Full Cycle 3.0
+
 ## Desafio Go:
 
 Imagem do container Go no Doker Hub: \
