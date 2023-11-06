@@ -19,13 +19,12 @@ services:
       context: node
       dockerfile: Dockerfile.prod
     command: npm install
-    entrypoint: wait-for db:3306 -t 30 -- node index.js
+    entrypoint: wait-for db:3306 -t 30 -- sh -c "npm install && node index.js"
     container_name: app
     networks:
       - node-network
     volumes:
-      - ./node:/home/node/app
-      - ./node/node_modules:/home/node/app/node_modules
+      - ./node:/home/node
     ports:
       - "3000:3000"
     depends_on:
